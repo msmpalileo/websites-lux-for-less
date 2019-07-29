@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lux for Less</title>
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/hover.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" media='screen and (max-device-width: 1440px)' href="css/mediaquery-laptop-large.css">
+	<link rel="stylesheet" type="text/css" media='screen and (max-device-width: 1024px)' href="css/mediaquery-laptop-small.css">
+	<link rel="stylesheet" type="text/css" media='screen and (max-device-width: 425px)' href="css/mediaquery-mobile.css">
+
+	<link rel='stylesheet' media='screen and (max-device-width: 425px)' href='css/swiper.min.css' />
+	 <link rel='stylesheet' media='screen and (max-device-width: 425px)' href='css/select-slider.css' />
+
+
+	<link href="https://fonts.googleapis.com/css?family=Wire+One" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300" rel="stylesheet">
+</head>
+<body>
+	<div class="nav-section">
+		<div class="nav-section-logo"><img src="img/nav-logo.png"></div>
+		<div class="nav-section-links">
+			<ul>
+				<li><a href="#" style="color: red;">SALE</a><span>|</span></li>
+				<li><a href="#">BRANDS</a><span>|</span></li>
+				<li><a href="#">MENS</a><span>|</span></li>
+				<li><a href="#">LADIES</a><span>|</span></li>
+				<li><a href="#">SELL YOUR WATCH</a></li>
+				<li>
+					<div class="searchContainer">
+						 <img src="img/nav-search.png" class="searchIcon">
+						 <input class="searchBox" type="search" name="search" placeholder="">
+						 <input type="submit" value="Search" class="searchButton">
+					</div>					
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="nav-mobile">
+		<div class="nav-burger"><a><img onclick="myFunction()" class="dropbtn" src="img/nav-burger.png"></a>
+			<div id="myDropdown" class="dropdown-content">
+				<div class="searchContainer">
+						 <img src="img/nav-search.png" class="searchIcon">
+						 <input class="searchBox" type="search" name="search" placeholder="">
+						 <input type="submit" value="Search" class="searchButton">
+				</div>		
+				<hr style="background-color: white;">
+			    <a href="#">Watches<span><img src="img/nav-arrow.png"></span></a>
+			    <a href="#">Accessories<span><img src="img/nav-arrow.png"></span></a>
+			    <a href="#">About Us<span><img src="img/nav-arrow.png"></span></a>
+			    <a href="#">Blog<span><img src="img/nav-arrow.png"></span></a>
+			  </div>
+			</div>
+		<div class="nav-logo"><a href=""><img src="img/nav-logo.png"></a></div>
+		<div class="nav-shop"><a href="#selection-link"><img src="img/nav-shop.png"></a></div>
+	</div>
+	
+	<div class="hero-section">
+		<div class="ads">
+			<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+			  	<ol class="carousel-indicators">
+				    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+				    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+				  </ol>
+				  <div class="carousel-inner">
+				    <div class="carousel-item active ads-size" id="ads-1">
+				    	<div class="ads-1-shop-now">
+				    		<h1>Lux for Less</h1>
+				    		<p>FLASH SALE</p>
+				    		<div class="discount">70% OFF</div>
+				    		<button>START SHOPPING</button>
+				    	</div>
+				  	</div>
+				  	<div class="carousel-item ads-size" id="ads-1">
+				    	<div class="ads-1-shop-now">
+				    		<h1>Lux for Less</h1>
+				    		<p>FLASH SALE</p>
+				    		<div class="discount">70% OFF</div>
+				    		<button>START SHOPPING</button>
+				    	</div>
+				  	</div>
+
+					  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span></a>
+					  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+				    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				    <span class="sr-only">Next</span></a>
+				</div>
+			</div>
+
+			<div class="logos">
+				<div><img src="img/brands/hublot-geneve.jpg"></div>
+				<div><img src="img/brands/audemars-piguet.jpg"></div>
+				<div><img src="img/brands/blancpain.jpg"></div>
+				<div><img src="img/brands/breitling.jpg"></div>
+				<div><img src="img/brands/rolex.jpg"></div>
+				<div><img src="img/brands/Bulgari_logo.jpg"></div>
+				<div><img src="img/brands/cartier.jpg"></div>
+				<div><img src="img/brands/omega.jpg"></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div class="selection-container">
+		<h2>EXPLORE OUR</h2>
+		<h1>FEATURED SELECTION</h1>
+		<hr>
+		<div class="selection-section">
+			<div class="selection-luxury">
+				<img src="img/selections/selections-luxury.jpg">
+				<h2>LUXURY SELECTION</h2>
+				<p>The UK's Largest Authorised Retailer</p>
+				<button>Explore Luxury Watches</button>
+			</div>
+			<div class="selection-preowned">
+				<img src="img/selections/selections-preowned.jpg">
+				<h2>PRE-OWNED WATCHES</h2>
+				<p>Hundreds of New Lines added</p>
+				<button>Explore Pre-Owned</button>
+			</div>
+			<div class="selection-lucky">
+				<img src="img/selections/selections-lucky.jpg">
+				<h2>FEELING LUCKY</h2>
+				<p>Not sure what to pick? Let us pick for you!</p>
+				<button>Get our Pick</button>
+			</div>
+		</div>
+	</div>
+
+	<div class="swiper-div">
+		<div class="swiper-title">
+			<h2>EXPLORE OUR</h2>
+			<h1>FEATURED SELECTION</h1>
+			<hr>
+		</div>
+		<div class="swiper-container">
+		    <div class="swiper-wrapper">
+		       <div class="swiper-slide">
+		       	<div class="selection-luxury">
+					<img src="img/selections/selections-luxury.jpg">
+					<h2>LUXURY SELECTION</h2>
+					<p>The UK's Largest Authorised Retailer</p>
+					<button>Explore Luxury Watches</button>
+				</div>
+		       </div>
+		      <div class="swiper-slide">
+		      	<div class="selection-preowned">
+					<img src="img/selections/selections-preowned.jpg">
+					<h2>PRE-OWNED WATCHES</h2>
+					<p>Hundreds of New Lines added</p>
+					<button>Explore Pre-Owned</button>
+				</div>
+		      </div>
+		      <div class="swiper-slide">
+		      	<div class="selection-lucky">
+					<img src="img/selections/selections-lucky.jpg">
+					<h2>FEELING LUCKY</h2>
+					<p>Not sure what to pick? Let us pick for you!</p>
+					<button>Get our Pick</button>
+				</div>
+		      </div>
+		    </div>
+		    <div class="swiper-pagination"></div>
+		    <div class="swiper-button-prev"></div>
+		    <div class="swiper-button-next"></div>
+	  	</div>
+	</div>
+
+	<div class="featured-section">
+		<h2>EXPLORE OUR</h2>
+		<h1>BEST SELLERS</h1>
+		<hr>
+		<div class="featured-products">
+			<div class="featured-product hvr-grow">
+				<a href="">
+					<img src="img/watches/watch-1.png">
+					<p>Omega Prestige Co-Axial 27<br>
+					<span>$ 1,850.00</span></p>
+				</a>
+			</div>
+			<div class="featured-product hvr-grow">
+				<a href="">
+					<img src="img/watches/watch-2.png">
+					<p>Rolex Day-Date 40<br>
+					<span>$ 5,995.00</span></p>
+				</a>
+			</div>
+			<div class="featured-product hvr-grow">
+				<a href="">
+					<img src="img/watches/watch-3.png">
+					<p>Cartier Tank Solo Women<br>
+					<span>$ 3,995.99</span></p>
+				</a>
+			</div>
+			<div class="featured-product hvr-grow">
+				<a href="">
+					<img src="img/watches/watch-4.png">
+					<p>Breitling Chronomat 44<br>
+					<span>$ 3,090.00</span></p>
+				</a>
+			</div>
+		</div>
+		<button>View More</button>
+	</div>
+
+	<a href="#0" class="cd-top js-cd-top" id="btt">Top</a>
+
+	<div class="newsletter-section">
+		<p>SIGN UP FOR THE LATEST NEWS & OFFERS</p>
+		<input type="text" name="" placeholder="your email address"><button>SIGN UP</button>
+	</div>
+
+	<div class="footer-section">
+		<div class="footer-cc">
+			<h3>CUSTOMER CARE</h3>
+			<ul>
+				<li><a href="">Contact Us</a></li>
+				<li><a href="">FAQs</a></li>
+				<li><a href="">Return Policy</a></li>
+				<li><a href="">Delivery Information</a></li>
+			</ul>
+		</div>
+		<div class="footer-au">
+			<h3>ABOUT US</h3>
+			<ul>
+				<li><a href="">Lux for Less</a></li>
+				<li><a href="">Careers</a></li>
+				<li><a href="">Privacy Policy</a></li>
+				<li><a href="">Terms of Use</a></li>
+			</ul>
+		</div>
+		<div class="footer-ca">
+			<h3>CATEGORIES</h3>
+			<ul>
+				<li><a href="">Men</a></li>
+				<li><a href="">Ladies</a></li>
+				<li><a href="">Sell Your Watch</a></li>
+				<li><a href="" style="color: red;">SALE</a></li>
+			</ul>
+		</div>
+		<div class="footer-br">
+			<h3>BRANDS</h3>
+			<div class="brands">
+				<div>
+					<ul>
+						<li><a href="">Rolex</a></li>
+						<li><a href="">Audemars Pauget</a></li>
+						<li><a href="">Blancpain</a></li>
+						<li><a href="">Breitling</a></li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li><a href="">Cartier</a></li>
+						<li><a href="">Hublot</a></li>
+						<li><a href="">Omega</a></li>
+						<li><a href="">Bvlgari</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="footer-sm">
+			<h3>Follow us:</h3>
+			<div class="footer-social-img">
+					<a href=""><img src="img/logo-facebook.png"></a>
+					<a href=""><img src="img/logo-pinterest.png"></a>
+					<a href=""><img src="img/logo-twitter.png"></a>
+			</div>
+		</div>
+	</div>
+
+	<div class="footer-slider">
+			<div class="footer-slider-cc">
+				<div class="footer-slider-cc-button"><a>Customer Care</a></div>
+				<div class="footer-slider-cc-contents">
+					<ul>
+						<li><a href="">Contact Us</a></li>
+						<li><a href="">FAQs</a></li>
+						<li><a href="">Return Policy</a></li>
+						<li><a href="">Delivery Information</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-slider-ac">
+				<div class="footer-slider-ac-button"><a>About Us</a></div>
+				<div class="footer-slider-ac-contents">
+					<ul>
+						<li><a href="">About Lux for Less</a></li>
+						<li><a href="">Careers</a></li>
+						<li><a href="">Privacy Policy</a></li>
+						<li><a href="">Terms of Use</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-slider-ab">
+				<div class="footer-slider-ab-button"><a>Categories</a></div>
+				<div class="footer-slider-ab-contents">
+					<ul>
+						<li><a href="">Men</a></li>
+						<li><a href="">Ladies</a></li>
+						<li><a href="">Sell Your Watch</a></li>
+						<li><a href="" style="color: red;">SALE</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-slider-br">
+				<div class="footer-slider-br-button"><a>Brands</a></div>
+				<div class="footer-slider-br-contents">
+					<ul>
+						<li><a href="">Rolex</a></li>
+						<li><a href="">Audemars Pauget</a></li>
+						<li><a href="">Blancpain</a></li>
+						<li><a href="">Breitling</a></li>
+						<li><a href="">Cartier</a></li>
+						<li><a href="">Hublot</a></li>
+						<li><a href="">Omega</a></li>
+						<li><a href="">Bvlgari</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-social-img">
+				<span>Follow us:</span><br>
+				<a href=""><img src="img/logo-facebook.png"></a>
+				<a href="" id="logo-twitter"><img src="img/logo-twitter.png"></a>
+				<a href=""><img src="img/logo-pinterest.png"></a>
+			</div>
+	</div>
+
+	<div class="copyright-section">
+		<p>&copy;2018 Lux for Less, Inc.</p>
+	</div>
+
+	<script src="js/main.js"></script> 
+	<script src="js/jquery-3.2.1.slim.min.js"></script>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/backtotop.js"></script>
+	<script src="js/swiper.min.js"></script>
+
+
+	<script>
+		/* When the user clicks on the button, 
+		toggle between hiding and showing the dropdown content */
+		function myFunction() {
+		    document.getElementById("myDropdown").classList.toggle("show");
+		}
+
+		// Close the dropdown if the user clicks outside of it
+		window.onclick = function(event) {
+		  if (!event.target.matches('.dropbtn')) {
+
+		    var dropdowns = document.getElementsByClassName("dropdown-content");
+		    var i;
+		    for (i = 0; i < dropdowns.length; i++) {
+		      var openDropdown = dropdowns[i];
+		      if (openDropdown.classList.contains('show')) {
+		        openDropdown.classList.remove('show');
+		      }
+		    }
+		  }
+		}
+	</script>
+
+	<script>
+	    var swiper = new Swiper('.swiper-container', {
+	      effect: 'flip',
+	      grabCursor: true,
+	      pagination: {
+	        el: '.swiper-pagination',
+	      },
+	      flipEffect: {
+		        slideShadows : false,
+		      },
+	      navigation: {
+	        nextEl: '.swiper-button-next',
+	        prevEl: '.swiper-button-prev',
+	      },
+	    });
+  	</script>
+
+ 	<script>
+		$(document).ready(function(){
+		    $(".footer-slider-cc-button").click(function(){
+		        $(".footer-slider-cc-contents").slideToggle();
+		    });
+
+		    $(".footer-slider-ac-button").click(function(){
+		        $(".footer-slider-ac-contents").slideToggle();
+		    });
+
+		    $(".footer-slider-ab-button").click(function(){
+		        $(".footer-slider-ab-contents").slideToggle();
+		    });
+
+		    $(".footer-slider-br-button").click(function(){
+		        $(".footer-slider-br-contents").slideToggle();
+		    });
+		});
+	</script>
+
+</body>
+</html>

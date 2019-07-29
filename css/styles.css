@@ -1,0 +1,475 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*-----------------------------Navigation-----------------------------*/
+
+.nav-section {
+	height: 100px;
+	background-color: black;
+	width: 100%;
+}
+
+.nav-mobile {
+	display: none;
+}
+
+.nav-section-logo {
+	width: 80px;
+	float: left;
+	margin: 20px 0 10px 100px;
+}
+
+.nav-section-logo img {
+	width: 80px;
+}
+
+
+.nav-section-links {
+	float: right;
+	padding-top: 30px;
+	margin-right: 100px;
+}
+
+.nav-section-links ul {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px;
+	list-style: none;
+	font-weight: normal;
+}
+
+.nav-section-links ul li {
+	display: inline-block;
+	color: white;
+}
+
+.nav-section-links span {
+	margin: 0 50px;
+}
+
+.nav-section-links a {
+	color: white;
+	letter-spacing: 2px;
+}
+
+.nav-section-links a:hover {
+	text-decoration: none;
+}
+
+.searchContainer {
+  display: inline-flex;
+  flex: 1 1 300px;
+  position: relative;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  margin-left: 100px;
+  max-height: 40px;
+}
+
+.searchIcon {
+  padding: 0.6rem;
+  background-color: white;
+}
+
+.searchBox {
+  border: 0;
+  padding: 0.5rem 0.5rem 0.5rem 0;
+  flex: 1;
+}
+
+.searchButton {
+  background: white;
+  border: 0;
+  color: black;
+  border-radius: 0;
+  cursor: pointer;
+  letter-spacing: 1px;
+}
+
+.searchButton:hover {
+	background: grey;
+}
+
+/*-----------------------------Ads-----------------------------*/
+
+.carousel-item {
+	border:1px solid black;
+}
+
+#ads-1 {
+	background-image: url(../img/ads/hero-ads-1.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.ads-size {
+	height: 608px;
+}
+
+.ads {
+	width: 100%;
+}
+
+
+.ads-1-shop-now {
+	color: white;
+	text-align: center;
+	width: 1200px;
+	margin: 100px auto;
+	padding-right: 550px;
+	padding-top: 30px;
+}
+
+.ads-1-shop-now h1 {
+	font: 60px Constantia;
+	text-transform: uppercase;
+	margin-bottom: -5px;
+}
+
+.ads-1-shop-now p {
+	font: 40px Microsoft Yi Baiti;
+	text-transform: uppercase;
+	margin-bottom: -5px;
+}
+
+.discount {
+	font-family: Microsoft Yi Baiti;
+	font-size: 140px;
+	margin-top: -35px;
+}
+
+.ads-1-shop-now button {
+	border: 0;
+	background: none;
+	box-shadow: none;
+	border-radius: 5px;
+	background-color: #d60606; 
+	width: 250px;
+	height: 60px;
+	font: 25px Microsoft Yi Baiti;
+	color: rgba(255,255,255,0.9);
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.ads-1-shop-now button:hover {
+	background-color: #d84141; 
+}
+
+.logos {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 200px;
+}
+
+.logos div {
+	margin: auto;
+}
+
+/*-----------------------------Ads-----------------------------*/
+
+.swiper-container {
+	display: none;
+}
+
+.swiper-title {
+	display: none;
+}
+
+.selection-container {
+	padding-top: 30px;
+	background-color: #f8fbff;
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 1px;
+}
+
+.selection-container hr {
+	width: 50%;
+}
+
+.selection-section {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	padding: 70px 10%;
+}
+
+
+.selection-section div h2 {
+	font-family: 'Playfair Display', serif;
+	font-size: 30px;
+	margin-bottom: -10px;
+	font-weight: normal;
+	letter-spacing: -1px;
+}
+
+.selection-section div p {
+	font-family: 'Wire One', sans-serif;
+	font-size: 24px;
+	letter-spacing: 1px;
+}
+
+
+.selection-section div img {
+	width: 90%;
+	min-width: 250px;
+	max-width: 400px;
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.selection-section div button {
+	border: 0;
+	background-color: white;
+	border: 1px solid black;
+	padding: 12px 30px;
+	font-family: 'Wire One', sans-serif;
+	font-size: 24px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.selection-section div button:hover {
+	background-color: #bbc0c9;
+	color: white;
+}
+/*-----------------------------Featured-----------------------------*/
+
+.featured-section {
+	font-family: 'Playfair Display', serif;
+	letter-spacing: 1px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+.featured-section hr {
+	width: 50%;
+}
+
+.featured-section h1 {
+	font-size: 50px;
+}
+
+.featured-product img {
+	width: 220px;
+	padding-bottom: 20px;
+}
+
+.featured-products {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	padding: 20px 10%;
+}
+
+.featured-products p {
+	font-family: 'Wire One', sans-serif;
+	font-size: 30px;
+}
+
+.featured-products p span {
+	font-family: 'Wire One', sans-serif;
+	font-weight: bold;
+}
+
+
+.featured-products a {
+	color: black;
+}
+
+.featured-products a:hover {
+	text-decoration: none;
+}
+
+.featured-section button {
+	border: 0;
+	background-color: white;
+	border: 1px solid black;
+	padding: 12px 30px;
+	font-family: 'Wire One', sans-serif;
+	font-size: 24px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	cursor: pointer;
+	width: 200px;
+}
+
+.featured-section button:hover {
+	background-color: #bbc0c9;
+	color: white;
+}
+
+
+/*-----------------------------Back to Top-----------------------------*/
+
+.cd-top {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  bottom: 40px;
+  right: 10px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  /* image replacement properties */
+  overflow: hidden;
+  text-indent: 100%;
+  white-space: nowrap;
+  background: url(../img/btt.png) no-repeat center 50%;
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: opacity .3s 0s, visibility 0s .3s, background-color .3s 0s;
+  transition: opacity .3s 0s, visibility 0s .3s, background-color .3s 0s;
+}
+
+.cd-top.cd-top--show,
+.cd-top.cd-top--fade-out,
+.cd-top:hover {
+  -webkit-transition: opacity .3s 0s, visibility 0s 0s, background-color .3s 0s;
+  transition: opacity .3s 0s, visibility 0s 0s, background-color .3s 0s;
+}
+
+.cd-top.cd-top--show {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+}
+
+.cd-top.cd-top--fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+}
+
+.cd-top:hover {
+  opacity: 1;
+}
+
+@media only screen and (min-width: 768px) {
+  .cd-top {
+    right: 20px;
+    bottom: 20px;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .cd-top {
+    height: 60px;
+    width: 60px;
+    right: 30px;
+    bottom: 30px;
+  }
+}
+
+/*-----------------------------Newsletter-----------------------------*/
+
+.newsletter-section {
+	text-align: center;
+	height: 160px;
+	margin: 40px 0 0 0;
+	background-color: #f8fbff;
+	padding: 30px 0px;
+}
+
+
+.newsletter-section p {
+	font: 22px 'Playfair Display', serif;
+}
+
+.newsletter-section input {
+	font-family: 'Wire One', sans-serif;
+	font-size: 24px;
+	width: 300px;
+	padding-left: 10px;
+}
+
+.newsletter-section button {
+	font-family: 'Wire One', sans-serif;
+	font-size: 24px;
+	height: 42px;
+	width: 120px;
+	box-shadow: none;
+	background-color: #f8ce6e;
+	border: none;
+	cursor: pointer;
+}
+
+.newsletter-section button:hover {
+	background-color: #fcb81b;
+}
+
+/*-----------------------------Footer-----------------------------*/
+
+.footer-slider {
+	display: none;
+}
+
+.footer-section {
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+	grid-gap: 5%;
+	background-color: black;
+	color: white;
+	padding: 40px 10%;
+}
+
+.footer-cc, .footer-au, .footer-ca, .footer-br, .footer-sm {
+	min-width: 100px;
+}
+
+.footer-section h3 {
+	font-family: 'Wire One', sans-serif;
+	font-size: 35px;
+	letter-spacing: 2px;
+}
+
+.footer-section a {
+	color: white;
+}
+
+.footer-section a:hover {
+	text-decoration: none;
+	color: grey;
+}
+
+.brands {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 1em;
+}
+
+
+
+.footer-section ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-sm img {
+	width: 50px;
+	margin: 5px;
+}
+
+.footer-social-img {
+	margin-top: 5px;
+}
+
+/*-----------------------------Copyright-----------------------------*/
+
+.copyright-section {
+	text-align: center;
+	font: 15px Microsoft tai le;
+	color: white;
+	background-color: black;
+	border: 1px solid black;
+}
